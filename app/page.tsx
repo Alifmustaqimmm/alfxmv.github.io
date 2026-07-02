@@ -1,3 +1,5 @@
+import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/sections/Hero";
 import BackgroundGlow from "@/components/ui/BackgroundGlow";
 import GridBackground from "@/components/ui/GridBackground";
 
@@ -8,11 +10,9 @@ export default function Home() {
       <GridBackground />
       <BackgroundGlow />
 
-      <div className="relative z-10 flex min-h-screen items-center justify-center">
-        <h1 className="text-6xl font-bold tracking-tight">
-          ALFXMV
-        </h1>
-      </div>
+      <Navbar />
+
+      <Hero />
 
     </main>
   );
