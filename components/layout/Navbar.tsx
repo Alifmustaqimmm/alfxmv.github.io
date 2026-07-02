@@ -62,23 +62,22 @@ export default function Navbar() {
           ALFXMV
         </h1>
 
-        <div className="flex gap-6 text-sm text-zinc-400">
-          {menus.map((menu) => (
-            <a
-              key={menu.name}
-              href={menu.href}
-              className="
-                text-zinc-400
-                transition-all
-                duration-300
-                hover:text-white
-                hover:drop-shadow-[0_0_12px_rgba(59,130,246,.7)]
-                "
-            >
-              {menu.name}
-            </a>
-          ))}
-        </div>
+        <div className="hidden gap-6 text-sm text-zinc-400 md:flex">
+  {menus.map((menu) => (
+    <a
+      key={menu.name}
+      href={menu.href}
+      className="
+      transition-all
+      duration-300
+      hover:text-white
+      hover:drop-shadow-[0_0_12px_rgba(59,130,246,.7)]
+      "
+    >
+      {menu.name}
+    </a>
+  ))}
+</div>
       </nav>
     </motion.header>
   );
