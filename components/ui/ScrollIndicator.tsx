@@ -14,7 +14,7 @@ export default function ScrollIndicator() {
       }}
       className="
       absolute
-      bottom-10
+      bottom-6
       left-1/2
       -translate-x-1/2
       text-zinc-500

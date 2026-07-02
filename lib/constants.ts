@@ -4,11 +4,11 @@ export const personalInfo = {
   subtitle: "Full Stack Developer",
   location: "Tangerang, Indonesia",
 
-  email: "YOUR_EMAIL@gmail.com",
+  email: "alifmustaqim018@gmail.com",
 
   github: "https://github.com/Alifmustaqimmm",
 
   linkedin: "#",
 
-  instagram: "#",
+  instagram: "https://www.instagram.com/alfxmv",
 };

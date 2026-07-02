@@ -38,7 +38,7 @@ export default function Navbar() {
         gap-8
         rounded-full
         border
-        border-white/10
+        border-white/5
         bg-white/5
         px-8
         py-4
@@ -48,7 +48,7 @@ export default function Navbar() {
       >
         <h1
           className="
-          bg-gradient-to-r
+          bg-linear-to-r
           from-blue-400
           via-cyan-300
           to-violet-400
@@ -71,6 +71,7 @@ export default function Navbar() {
       transition-all
       duration-300
       hover:text-white
+      hover:bg-white/5
       hover:drop-shadow-[0_0_12px_rgba(59,130,246,.7)]
       "
     >

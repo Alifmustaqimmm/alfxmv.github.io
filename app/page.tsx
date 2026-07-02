@@ -1,5 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
-import Hero from "@/components/sections/Hero";
+import Hero from "@/components/sections/Hero/Hero";
 import BackgroundGlow from "@/components/ui/BackgroundGlow";
 import GridBackground from "@/components/ui/GridBackground";
 import MouseGlow from "@/components/ui/MouseGlow";

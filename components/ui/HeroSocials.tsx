@@ -17,17 +17,17 @@ const socials = [
   },
   {
     icon: FaInstagram,
-    href: "#",
+    href: "https://www.instagram.com/alfxmv/",
   },
   {
     icon: MdEmail,
-    href: "mailto:example@email.com",
+    href: "mailto:alifmustaqim018@gmail.com",
   },
 ];
 
 export default function HeroSocials() {
   return (
-    <div className="mt-12 flex justify-center gap-5">
+    <div className="mt-0 flex justify-center gap-5">
       {socials.map((social, index) => {
         const Icon = social.icon;
 
